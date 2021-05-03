@@ -1,6 +1,5 @@
 import MainContent from "./components/MainContent";
 import Sidebar from "./components/Sidebar";
-import Charts from "./components/Charts";
 
 function App() {
     return (
