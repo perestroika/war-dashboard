@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body text-brand-primary;
+}
+
+.side-menu svg {
+  @apply w-5 !important;
+}
