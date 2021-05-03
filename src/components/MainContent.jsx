@@ -1,5 +1,6 @@
 import React from 'react'
-import Charts from './Charts'
+import Charts from './dashboard-charts/Charts'
+import Charts2 from "./dashboard-charts/Charts2";
 
 function MainContent() {
     return (
@@ -8,6 +9,7 @@ function MainContent() {
             <p className="text-brand-light-gray">Data's about intentional attacks on civilians by governments and formally organized armed groups.</p>
             <br/>
             <Charts/>
+            <Charts2/>
         </div>
     )
 }
