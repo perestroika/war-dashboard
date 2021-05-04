@@ -5,7 +5,7 @@ import logo from '../assets/data.svg'
 
 function Sidebar(){
     return (
-        <div className="w-72 min-h-screen border-r border-opacity-15 px-8">
+        <div className="w-72 min-h-screen border-r border-opacity-15 px-8 h-screen sticky top-0">
             <div>
                 <Link to="/"><img src={logo} alt="dashboard logo" width={65} height={65} className="py-16 mx-auto"/></Link>
             </div>
