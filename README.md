@@ -1,4 +1,4 @@
-  <h1 align="center">War Dashboard</h3>
+  <h1 align="center">War Dashboard</h1>
 
   <p>
     Nulla vitae consequat urna. Ut mollis nec enim at condimentum. Donec sit amet est sed ipsum convallis cursus at eu eros. Sed ac malesuada nulla. Morbi ipsum dui, ullamcorper ultricies nisi sed, consequat tristique velit. In in accumsan enim, sed vehicula urna. Sed consectetur interdum sem, ut pretium tellus ullamcorper vitae. Proin ornare, enim et eleifend pretium, ante leo semper ex, a aliquam risus ante et turpis. Mauris vestibulum nunc mauris, eget vehicula nibh fermentum nec. Nulla interdum eleifend nibh et blandit. Praesent egestas pulvinar nulla, eu eleifend elit egestas dictum. Donec at ligula felis. Sed varius non lacus ac pellentesque. Ut luctus vehicula imperdiet. Aliquam quis ultrices elit.
