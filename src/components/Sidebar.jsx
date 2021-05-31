@@ -11,15 +11,17 @@ function Sidebar(){
             </div>
             <div className="side-menu font-medium leading-5 space-y-1.5">
                 {/* active link */}
-                <Link to="/"  className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
+                <a href="http://localhost:3000/"   className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex "><i className="fas fa-project-diagram text-lg mr-4"/> Continents</span>
-                </Link>
-                <Link to="/country" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
+                </a>
+                <a href="http://localhost:3000/country" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-chart-bar text-lg mr-4"/> Country</span>
-                </Link>
+                </a>
+                {/*
                 <Link to="/race" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-chart-line text-lg mr-4"/> Evolution</span>
                 </Link>
+                */}
                 <a href="https://github.com/perestroika/dashboard-war" target="_blank" rel="noreferrer" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-code-branch text-lg mr-4"/> Github</span>
                 </a>
