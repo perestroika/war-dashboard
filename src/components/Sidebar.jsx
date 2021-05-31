@@ -11,18 +11,6 @@ function Sidebar(){
             </div>
             <div className="side-menu font-medium leading-5 space-y-1.5">
                 {/* active link */}
-                <Link to="/" className="flex bg-brand-primary text-white rounded-2xl shadow-primary p-5 ">
-                    <span className="inline-flex "><i className="fas fa-project-diagram text-lg mr-4"/> Dashboard</span>
-                </Link>
-                <Link to="/" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
-                    <span className="inline-flex"><i className="fas fa-chart-bar text-lg mr-4"/> Charts</span>
-                </Link>
-                <Link to="/" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
-                    <span className="inline-flex"><i className="fas fa-chart-line text-lg mr-4"/> Evolution</span>
-                </Link>
-                <div className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
-                    <span className="inline-flex"><i className="fas fa-moon text-lg mr-4"/> Dark mode</span>
-                </div>
                 <Link to="/"  className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex "><i className="fas fa-project-diagram text-lg mr-4"/> Continents</span>
                 </Link>
