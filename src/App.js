@@ -2,6 +2,7 @@ import MainContent from "./components/MainContent";
 import Sidebar from "./components/Sidebar";
 import CountryContent from "./components/CountryContent";
 import Race from "./components/Race";
+import {withRouter} from 'react-router';
 
 import {BrowserRouter, Switch as Router, Route, Switch} from 'react-router-dom';
 
@@ -24,4 +25,4 @@ function App() {
     );
 }
 
-export default App;
+export default withRouter(App);
