@@ -1,5 +1,6 @@
 import React from 'react'
-import Charts from "./dashboard-charts/Charts";
+import Treemap from "./country-charts/Treemap";
+import Spline from "./country-charts/Spline";
 
 
 function CountryContent() {
@@ -9,8 +10,10 @@ function CountryContent() {
                 <h2 className="text-5xl leading-tight mb-2 font-semibold tracking-tighter">Violence Against Civilians Dashboard</h2>
                 <p className="text-brand-light-gray">Data's about intentional attacks on civilians by governments and formally organized armed groups.</p>
             </div>
-            <Charts/>
-            <h1>test</h1>
+            <br/>
+            <Treemap/>
+            <br/>
+            <Spline/>
             <br/>
         </div>
     )

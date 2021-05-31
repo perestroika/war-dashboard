@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 import CountryContent from "./components/CountryContent";
 import Race from "./components/Race";
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {BrowserRouter, Switch as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
     return (
@@ -11,9 +11,13 @@ function App() {
             <div className="flex bg-white">
                 <Sidebar />
                 <Router>
-                    <Route path="/" exact component={MainContent}/>
-                    <Route path="/country" exact component={CountryContent}/>
-                    <Route path="/race" exact component={Race}/>
+                    <BrowserRouter>
+                        <Switch>
+                            <Route path="/" exact component={MainContent}/>
+                            <Route path="/country" exact component={CountryContent}/>
+                            <Route path="/race" exact component={Race}/>
+                        </Switch>
+                    </BrowserRouter>
                 </Router>
             </div>
         </>

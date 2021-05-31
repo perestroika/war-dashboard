@@ -9,6 +9,7 @@ function MainContent() {
                 <h2 className="text-5xl leading-tight mb-2 font-semibold tracking-tighter">Violence Against Civilians Dashboard</h2>
                 <p className="text-brand-light-gray">Data's about intentional attacks on civilians by governments and formally organized armed groups.</p>
             </div>
+            <br/>
             <Charts/>
             <Charts2/>
             <br/>
