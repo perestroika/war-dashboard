@@ -20,10 +20,10 @@ function Sidebar(){
                 <Link to="/race" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-chart-line text-lg mr-4"/> Evolution</span>
                 </Link>
-                <a href="https://github.com/perestroika/dashboard-war" target="_blank" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
+                <a href="https://github.com/perestroika/dashboard-war" target="_blank" rel="noreferrer" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-code-branch text-lg mr-4"/> Github</span>
                 </a>
-                <a href="https://ucdp.uu.se/downloads/" target="_blank" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
+                <a href="https://ucdp.uu.se/downloads/" target="_blank" rel="noreferrer" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-heart text-lg mr-4"/> Data source</span>
                 </a>
             </div>
