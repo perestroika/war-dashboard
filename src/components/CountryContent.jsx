@@ -1,8 +1,9 @@
 import React from 'react'
-import Charts from "./dashboard-charts/Charts";
-import Charts2 from "./dashboard-charts/Charts2";
+import Treemap from "./country-charts/Treemap";
+import Spline from "./country-charts/Spline";
 
-function MainContent() {
+
+function CountryContent() {
     return (
         <div className="flex-1">
             <div className="flex-1 font-medium px-9 py-12 sticky top-0 z-50 bg-white shadow-sm">
@@ -10,11 +11,12 @@ function MainContent() {
                 <p className="text-brand-light-gray">Data's about intentional attacks on civilians by governments and formally organized armed groups.</p>
             </div>
             <br/>
-            <Charts/>
-            <Charts2/>
+            <Treemap/>
+            <br/>
+            <Spline/>
             <br/>
         </div>
     )
 }
 
-export default MainContent
+export default CountryContent;
