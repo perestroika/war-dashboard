@@ -80,7 +80,7 @@ class Charts extends Component {
     render() {
         return (
             <div id="chart">
-                <Chart options={this.state.options} series={this.state.series} type="bar" height={350} />
+                <Chart options={this.state.options} series={this.state.series} type="bar" height={350} width={1500} align={'center'} />
             </div>
         );
     }
