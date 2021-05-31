@@ -9,10 +9,8 @@ function Sidebar(){
             <div>
                 <Link to="/"><img src={logo} alt="dashboard logo" width={65} height={65} className="py-16 mx-auto"/></Link>
             </div>
-
             <div className="side-menu font-medium leading-5 space-y-1.5">
                 {/* active link */}
-<<<<<<< HEAD
                 <Link to="/" className="flex bg-brand-primary text-white rounded-2xl shadow-primary p-5 ">
                     <span className="inline-flex "><i className="fas fa-project-diagram text-lg mr-4"/> Dashboard</span>
                 </Link>
@@ -25,7 +23,6 @@ function Sidebar(){
                 <div className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-moon text-lg mr-4"/> Dark mode</span>
                 </div>
-=======
                 <Link to="/"  className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex "><i className="fas fa-project-diagram text-lg mr-4"/> Continents</span>
                 </Link>
@@ -41,7 +38,6 @@ function Sidebar(){
                 <a href="https://ucdp.uu.se/downloads/" target="_blank" className="flex hover:bg-brand-primary hover:text-white hover:rounded-2xl hover:shadow-primary p-5">
                     <span className="inline-flex"><i className="fas fa-heart text-lg mr-4"/> Data source</span>
                 </a>
->>>>>>> 41d3505944acb3d47c450267ee4587fcd990a500
             </div>
         </div>
     )
