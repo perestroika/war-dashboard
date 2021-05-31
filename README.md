@@ -14,7 +14,7 @@ At first, I wanted to make a dashboard on war data, however, there was a lot of 
 
 <div></div>
 
-> $ craco start
+> $ npm start
 
 
 ## What's included
