@@ -1,6 +1,7 @@
 import React from 'react'
 import Treemap from "./country-charts/Treemap";
 import Spline from "./country-charts/Spline";
+import ListCountry from "./country-charts/ListCountry";
 
 
 function CountryContent() {
@@ -15,6 +16,7 @@ function CountryContent() {
             <br/>
             <Spline/>
             <br/>
+            <ListCountry/>
         </div>
     )
 }

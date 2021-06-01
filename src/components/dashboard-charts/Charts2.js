@@ -2,55 +2,49 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Chart from 'react-apexcharts';
 
-class Charts2 extends Component {
+    class Charts2 extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {
-
             series: [{
                 name: 'Africa',
-                data: [15575, 15456, 18566, 16468, 20396]
+                data: [20396, 16468, 18566, 15456, 15575]
             }, {
                 name: 'Americas',
-                data: [13230, 10884, 4320, 1391, 1855]
+                data: [1855, 1391, 4320, 10884, 13230]
             }, {
                 name: 'Asia',
-                data: [32737, 28984, 25754, 21476, 22461]
+                data: [22461, 21476, 25754, 28984, 32737]
             }, {
                 name: 'Europe',
-                data: [275, 314, 521, 604, 1612]
+                data: [1612, 604, 521, 314, 275]
             }, {
                 name: 'Middle East',
-                data: [14622, 27682, 49484, 66642, 76024]
+                data: [76024, 66642, 49484, 27682, 14622]
             }],
             options: {
                 chart: {
-                    toolbar: {
-                        show: false
-                    },
                     type: 'bar',
                     height: 350,
                     stacked: true,
-                    stackType: '100%'
-                },
-                plotOptions: {
-                    bar: {
-                        horizontal: true,
+                    stackType: '100%',
+                    toolbar: {
+                        show: false
                     },
                 },
-                stroke: {
-                    width: 1,
-                    colors: ['#fff']
-                },
-                title: {
-                    text: 'In %'
-                },
+                responsive: [{
+                    breakpoint: 480,
+                    options: {
+                        legend: {
+                            position: 'bottom',
+                            offsetX: -10,
+                            offsetY: 0
+                        }
+                    }
+                }],
                 xaxis: {
-                    categories: [2019, 2018, 2017, 2016, 2015],
-                },
-                tooltip: {
-                    y: {
+                    categories: [2015, 2016, 2017, 2018, 2019],
+                    labels: {
                         formatter: function (val) {
                             return val
                         }
@@ -58,25 +52,17 @@ class Charts2 extends Component {
                 },
                 fill: {
                     opacity: 1
-
                 },
                 legend: {
-                    position: 'top',
-                    horizontalAlign: 'left',
-                    offsetX: 40
-                }
+                    position: 'right',
+                    offsetX: 0,
+                    offsetY: 50
+                },
             },
-
-
         };
     }
-
-
-
     render() {
         return (
-
-
             <div id="chart">
                 <Chart options={this.state.options} series={this.state.series} type="bar" height={350} width={1500} align={'center'} />
             </div>
